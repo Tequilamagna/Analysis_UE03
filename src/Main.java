@@ -1,6 +1,8 @@
 public class Main {
   static void main() {
-    System.out.println("Approximating pi using Madhava-Leibniz");
+    //------------------------------------------------------------------------------------------------------------------
+    System.out.printf("==== Task 1 ====%n");
+    System.out.printf("Approximating pi using Madhava-Leibniz%n");
 
     int n = 0;
     int step = 0;
@@ -38,5 +40,9 @@ public class Main {
       n++;
     } while(step < 4);
     PiApproximation.reset();
+
+    //------------------------------------------------------------------------------------------------------------------
+    System.out.printf("==== Task 2 ====%n");
+
   }
 }
