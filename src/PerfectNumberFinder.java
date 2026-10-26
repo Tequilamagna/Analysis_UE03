@@ -12,7 +12,7 @@ public class PerfectNumberFinder {
         System.out.printf("Number %d is perfect!%n", n);
       }
 
-      if(isPerfect && n % 2 == 0) {
+      if(isPerfect && n % 2 != 0) {
         System.out.printf("oddly perfect in fact...%n");
         return;
       }
